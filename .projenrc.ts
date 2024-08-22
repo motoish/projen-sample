@@ -9,6 +9,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   projenrcTs: true,
   repositoryUrl: 'git@github.com-motoish:motoish/projen-sample.git',
   depsUpgrade: true,
+  releaseToNpm: false,
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],             /* Build dependencies for this module. */
