@@ -1,4 +1,4 @@
-import { awscdk } from 'projen';
+import { awscdk } from 'projen'
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'motoish',
   authorAddress: 'yuan.zhang@gmx.com',
@@ -14,14 +14,13 @@ const project = new awscdk.AwsCdkConstructLibrary({
   prettier: true,
   prettierOptions: {
     settings: {
-      "semi": false,
-      "singleQuote": true
-    }
-  }
-  ,
+      semi: false,
+      singleQuote: true,
+    },
+  },
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],             /* Build dependencies for this module. */
   // packageName: undefined,  /* The "name" in package.json. */
-});
-project.synth();
+})
+project.synth()
