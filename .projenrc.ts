@@ -19,6 +19,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
     },
   },
   minNodeVersion: "18.8.0",
+  workflowNodeVersion: "20.0.0",
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],             /* Build dependencies for this module. */
