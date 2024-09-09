@@ -12,6 +12,23 @@ const project = new awscdk.AwsCdkConstructLibrary({
   repositoryUrl: 'git@github.com-motoish:motoish/projen-sample.git',
   depsUpgrade: true,
   releaseToNpm: false,
+  pullRequestTemplate: true,
+  pullRequestTemplateContents: [
+    'Fix#',
+    '',
+    '## :classical_building: Background',
+    '',
+    '### :bookmark: URL',
+    '',
+    '## :point_right: Checkpoint',
+    '',
+    '### :white_check_mark: Flow',
+    '',
+    '### :warning: Impact',
+    '',
+    '## :memo: Changelog',
+    '',
+  ],
   prettier: true,
   prettierOptions: {
     settings: {
