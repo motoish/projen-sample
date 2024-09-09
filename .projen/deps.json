@@ -46,6 +46,11 @@
       "type": "build"
     },
     {
+      "name": "husky",
+      "version": "^9.1.5",
+      "type": "build"
+    },
+    {
       "name": "jest",
       "type": "build"
     },
@@ -75,6 +80,11 @@
     {
       "name": "jsii",
       "version": "~5.4.0",
+      "type": "build"
+    },
+    {
+      "name": "lint-staged",
+      "version": "^15.2.10",
       "type": "build"
     },
     {

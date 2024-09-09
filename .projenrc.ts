@@ -38,7 +38,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   },
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
-  // devDeps: [],             /* Build dependencies for this module. */
+  devDeps: ['husky@^9.1.5', 'lint-staged@^15.2.10'],
   packageName: 'projen-sample',
   packageManager: javascript.NodePackageManager.BUN,
 })
