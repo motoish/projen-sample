@@ -4,7 +4,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   authorAddress: 'yuan.zhang@gmx.com',
   cdkVersion: '2.156.0',
   constructsVersion: '10.3.0',
-  projenVersion: '0.86.7',
+  projenVersion: '0.87.0',
   defaultReleaseBranch: 'main',
   jsiiVersion: '~5.4.0',
   name: 'projen-sample',
