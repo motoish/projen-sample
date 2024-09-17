@@ -34,7 +34,7 @@
     "organization": false
   },
   "devDependencies": {
-    "@types/jest": "^29.5.12",
+    "@types/jest": "^29.5.13",
     "@types/node": "^18",
     "@typescript-eslint/eslint-plugin": "^7",
     "@typescript-eslint/parser": "^7",
@@ -56,10 +56,10 @@
     "jsii-rosetta": "~5.4.0",
     "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
-    "projen": "0.87.0",
+    "projen": "0.87.3",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.4"
+    "typescript": "~5.5.0"
   },
   "peerDependencies": {
     "aws-cdk-lib": "^2.156.0",
