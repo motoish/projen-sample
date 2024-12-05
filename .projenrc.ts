@@ -2,9 +2,9 @@ import { awscdk, javascript } from 'projen'
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'motoish',
   authorAddress: 'yuan.zhang@gmx.com',
-  cdkVersion: '2.166.0',
+  cdkVersion: '2.171.1',
   constructsVersion: '10.3.0',
-  projenVersion: '0.90.2',
+  projenVersion: '0.90.6',
   defaultReleaseBranch: 'main',
   jsiiVersion: '~5.5.0',
   name: 'projen-sample',
