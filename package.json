@@ -38,9 +38,9 @@
     "@types/node": "^18.19.70",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
-    "aws-cdk-lib": "2.174.1",
+    "aws-cdk-lib": "2.175.0",
     "commit-and-tag-version": "^12",
-    "constructs": "10.3.0",
+    "constructs": "10.4.2",
     "eslint": "^9",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.7.0",
@@ -62,8 +62,8 @@
     "typescript": "~5.7.3"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "^2.174.1",
-    "constructs": "^10.3.0"
+    "aws-cdk-lib": "^2.175.0",
+    "constructs": "^10.4.2"
   },
   "keywords": [
     "cdk"
