@@ -2,11 +2,11 @@ import { awscdk, javascript } from 'projen'
 const project = new awscdk.AwsCdkConstructLibrary({
   author: 'motoish',
   authorAddress: 'yuan.zhang@gmx.com',
-  cdkVersion: '2.175.0',
+  cdkVersion: '2.186.0',
   constructsVersion: '10.4.2',
-  projenVersion: '0.91.6',
+  projenVersion: '0.91.18',
   defaultReleaseBranch: 'main',
-  jsiiVersion: '~5.5.0',
+  jsiiVersion: '~5.8.0',
   name: 'projen-sample',
   projenrcTs: true,
   repositoryUrl: 'git@github.com-motoish:motoish/projen-sample.git',
@@ -38,7 +38,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   },
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
-  devDeps: ['husky@^9.1.5', 'lint-staged@^15.2.10'],
+  devDeps: ['husky@^9.1.5', 'lint-staged@^15.5.0', '@types/node@^22.13.14'],
   packageName: 'projen-sample',
   packageManager: javascript.NodePackageManager.BUN,
 })

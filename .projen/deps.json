@@ -6,6 +6,7 @@
     },
     {
       "name": "@types/node",
+      "version": "^22.13.14",
       "type": "build"
     },
     {
@@ -73,17 +74,17 @@
     },
     {
       "name": "jsii-rosetta",
-      "version": "~5.5.0",
+      "version": "~5.8.0",
       "type": "build"
     },
     {
       "name": "jsii",
-      "version": "~5.5.0",
+      "version": "~5.8.0",
       "type": "build"
     },
     {
       "name": "lint-staged",
-      "version": "^15.2.10",
+      "version": "^15.5.0",
       "type": "build"
     },
     {
@@ -92,7 +93,7 @@
     },
     {
       "name": "projen",
-      "version": "0.91.6",
+      "version": "0.91.18",
       "type": "build"
     },
     {
@@ -109,7 +110,7 @@
     },
     {
       "name": "aws-cdk-lib",
-      "version": "^2.175.0",
+      "version": "^2.186.0",
       "type": "peer"
     },
     {
