@@ -5,5 +5,5 @@ awscdk drill with projen
 ## node
 
 ```text
-nodejs >= 18.18.0
+nodejs >= 22.14.0
 ```
